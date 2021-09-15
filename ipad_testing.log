@@ -1,0 +1,620 @@
+2021-09-15T17:07:44Z Eyes: [LOG    ] {} Object.getConfig(): Loading configuration from /Users/chris/Desktop/tutorial-cypress-master/applitools.config.js
+2021-09-15T17:07:44Z Eyes: [VERBOSE] {} (): vgc concurrency is 5
+2021-09-15T17:07:44Z Eyes: [LOG    ] {} (): [handlers] creating handlers with the following config: {"agentId":"eyes-cypress/3.22.4","testConcurrency":5,"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110","browser":[{"width":800,"height":600,"name":"chrome"},{"deviceName":"iPad (7th generation)","screenOrientation":"portrait"}],"batchName":"Demo Batch - Cypress","showLogs":true,"logger":{"_logHandler":{"_isVerbose":true},"_sessionId":"","_isIncludeTime":false}}
+2021-09-15T17:07:44Z Eyes: [LOG    ] {} Object.<init>(): eyes-cypress plugin running with config: {"agentId":"eyes-cypress/3.22.4","testConcurrency":5,"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110","browser":[{"width":800,"height":600,"name":"chrome"},{"deviceName":"iPad (7th generation)","screenOrientation":"portrait"}],"batchName":"Demo Batch - Cypress","showLogs":true,"logger":{"_logHandler":{"_isVerbose":true},"_sessionId":"","_isIncludeTime":false}}
+2021-09-15T17:07:44Z Eyes: [LOG    ] {} (): starting plugin server
+2021-09-15T17:07:44Z Eyes: [LOG    ] {} Server.<init>(): plugin server running at port: 56042
+[0mGET /__/ [32m200 [0m6.370 ms - -[0m
+[0mGET /__cypress/runner/cypress_runner.css [32m200 [0m4.203 ms - -[0m
+[0mGET /__cypress/runner/cypress_runner.js [32m200 [0m2.151 ms - -[0m
+[0mGET /chrome-variations/seed?osname=mac&channel=stable&milestone=93 [36m304 [0m568.412 ms - -[0m
+[0mPOST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard [32m200 [0m568.189 ms - -[0m
+[0mGET /__cypress/iframes/integration/examples/ultraFastGrid.spec.js [32m200 [0m2.596 ms - 980[0m
+[0mGET /__cypress/runner/fonts/mulish-latin-400-normal.woff2 [32m200 [0m1.667 ms - 31176[0m
+[0mGET /__cypress/runner/fonts/fa-solid-900.woff2 [32m200 [0m2.090 ms - 76120[0m
+[0mGET /__cypress/runner/fonts/open-sans-latin-400-normal.woff2 [32m200 [0m3.142 ms - 14380[0m
+[0mGET /__cypress/runner/fonts/mulish-latin-500-normal.woff2 [32m200 [0m3.122 ms - 31176[0m
+[0mGET /__cypress/tests?p=cypress/integration/examples/ultraFastGrid.spec.js [32m200 [0m654.164 ms - -[0m
+[0mGET /v1/pages/ChNDaHJvbWUvOTMuMC40NTc3LjYzEhAJyYt1xpMzZWwSBQ2RYZVOEhcJA82zQTlkEq0SBQ0viD6CEgUNkWGVTg==?alt=proto [32m200 [0m559.997 ms - -[0m
+[0mGET /__cypress/tests?p=cypress/support/index.js [32m200 [0m947.936 ms - -[0m
+[0mOPTIONS /eyes/batchStart [32m204 [0m12.841 ms - -[0m
+2021-09-15T17:07:49Z Eyes: [LOG    ] {} (): [server] eyes api: batchStart [isInteractive]
+2021-09-15T17:07:49Z Eyes: [LOG    ] {} Object.batchStart(): [handlers] batchStart with data {"isInteractive":true}
+[0mPOST /eyes/batchStart [32m200 [0m14.574 ms - -[0m
+[0mGET /__/ [32m200 [0m0.621 ms - -[0m
+[0mGET /__cypress/runner/cypress_runner.css [32m200 [0m1.179 ms - -[0m
+[0mGET /__cypress/runner/cypress_runner.js [32m200 [0m0.895 ms - -[0m
+[0mGET /__cypress/static/favicon.ico [33m404 [0m0.617 ms - 136[0m
+[0mGET /__cypress/iframes/integration/examples/ultraFastGrid.spec.js [32m200 [0m0.867 ms - 983[0m
+[0mGET /__cypress/runner/fonts/fa-solid-900.woff2 [32m200 [0m0.876 ms - 76120[0m
+[0mGET /__cypress/runner/fonts/mulish-latin-400-normal.woff2 [32m200 [0m1.674 ms - 31176[0m
+[0mGET /__cypress/runner/fonts/open-sans-latin-400-normal.woff2 [32m200 [0m2.165 ms - 14380[0m
+[0mGET /__cypress/runner/fonts/mulish-latin-500-normal.woff2 [32m200 [0m0.945 ms - 31176[0m
+[0mGET /__cypress/tests?p=cypress/integration/examples/ultraFastGrid.spec.js [32m200 [0m1.447 ms - -[0m
+[0mGET /__cypress/tests?p=cypress/support/index.js [32m200 [0m2.036 ms - -[0m
+[0mOPTIONS /eyes/batchStart [32m204 [0m6.517 ms - -[0m
+2021-09-15T17:07:51Z Eyes: [LOG    ] {} (): [server] eyes api: batchStart [isInteractive]
+2021-09-15T17:07:51Z Eyes: [LOG    ] {} Object.batchStart(): [handlers] batchStart with data {"isInteractive":true}
+[0mPOST /eyes/batchStart [32m200 [0m5.780 ms - -[0m
+[0mGET /v1/pages/ChNDaHJvbWUvOTMuMC40NTc3LjYzEhAJFkwKDIzp6_cSBQ2RYZVOEhcJ-9au6wgbrJcSBQ0viD6CEgUNkWGVTg==?alt=proto [32m200 [0m536.009 ms - -[0m
+[0mGET / [32m200 [0m39.502 ms - -[0m
+[0mGET /_nuxt/d08c0d80512be1e2082f.js [32m200 [0m41.006 ms - -[0m
+[0mGET /_nuxt/fonts/4632a58.woff2 [32m200 [0m57.701 ms - -[0m
+[0mGET /_nuxt/fonts/d519113.otf [32m200 [0m40.206 ms - -[0m
+[0mGET /_nuxt/fonts/d013ef1.woff [32m200 [0m118.610 ms - -[0m
+[0mGET /_nuxt/fonts/047e44f.woff2 [32m200 [0m64.016 ms - -[0m
+[0mGET /_nuxt/fonts/11b73bb.woff [32m200 [0m20.085 ms - -[0m
+[0mGET /_nuxt/bad200f0d12a5847f409.js [32m200 [0m99.111 ms - -[0m
+[0mGET /_nuxt/fonts/b61df99.otf [32m200 [0m26.452 ms - -[0m
+[0mGET /_nuxt/fonts/c81525c.woff2 [32m200 [0m25.296 ms - -[0m
+[0mGET /_nuxt/fonts/2537c5b.woff [32m200 [0m28.748 ms - -[0m
+[0mGET /_nuxt/fonts/7d71bf4.otf [32m200 [0m26.300 ms - -[0m
+[0mGET /_nuxt/eb17efc1b5bd8767dd2f.js [32m200 [0m26.879 ms - -[0m
+[0mGET /_nuxt/c4267647c3cd83a3adfc.js [32m200 [0m27.478 ms - -[0m
+[0mGET /_nuxt/c2fac441b61c57e4a030.js [32m200 [0m81.178 ms - -[0m
+[0mGET /_nuxt/8d4d6fe6457c75e03c3e.js [32m200 [0m32.908 ms - -[0m
+[0mGET /_nuxt/8e91fbda21424516bb2f.js [32m200 [0m27.769 ms - -[0m
+[0mGET /_nuxt/30e577643d28c6551cad.js [32m200 [0m21.568 ms - -[0m
+[0mGET /_nuxt/a853f8d2999aea462fe4.js [32m200 [0m19.010 ms - -[0m
+[0mGET /_nuxt/5640f0d0ad583fd1b698.js [32m200 [0m16.932 ms - -[0m
+[0mGET /_nuxt/ae675ec7dad867cc97c7.js [32m200 [0m90.034 ms - -[0m
+[0mGET /_nuxt/78f2bdd81be12f72c234.js [32m200 [0m22.987 ms - -[0m
+[0mGET /_nuxt/3cd8fde815a6940d2613.js [32m200 [0m39.229 ms - -[0m
+[0mGET /scripttemplates/otSDKStub.js [32m200 [0m253.558 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/dividers/divider-white-1.svg [32m200 [0m294.968 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/partners-mask.svg [32m200 [0m298.036 ms - -[0m
+[0mGET /gtm.js?id=GTM-57BS2DH&l=dataLayer [32m200 [0m254.904 ms - -[0m
+[0mGET /glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/landing/address-container-image-burger.png [32m200 [0m299.149 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/logo_green.svg [32m200 [0m341.044 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/restaurants.svg [32m200 [0m303.754 ms - -[0m
+[0mGET /glovoapp/image/fetch///https://glovoapp.com/images/icons/flag--white.svg [32m200 [0m318.967 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/delivery.svg [32m200 [0m26.085 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/groceries.svg [32m200 [0m14.216 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/countries.svg [32m200 [0m14.177 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_desktop.svg [32m200 [0m16.239 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_mobile.svg [32m200 [0m27.740 ms - -[0m
+[0mGET /glovoapp/image/fetch//w_121,h_82,c_fit,q_auto/https://glovoapp.com/images/corporate/together.svg [32m200 [0m25.305 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/glovo-white.svg [32m200 [0m18.575 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_desktop.svg [32m200 [0m15.235 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/footer-wave.svg [32m200 [0m24.320 ms - -[0m
+[0mGET /glovoapp//video/upload//website_assets/images/landing/address-container-animation.webm [32m206 [0m13.763 ms - -[0m
+[0mGET /consent/359cdbf5-566e-4055-b5d9-ea428ef827b6/359cdbf5-566e-4055-b5d9-ea428ef827b6.json [32m200 [0m142.400 ms - -[0m
+[0mGET /_nuxt/0249f7d90012c44c69f5.js [32m200 [0m166.266 ms - -[0m
+[0mGET /_nuxt/4874ac8b6ae0d4c9f201.js [32m200 [0m161.283 ms - -[0m
+[0mGET /_nuxt/15e054710ceee356cb2d.js [32m200 [0m160.279 ms - -[0m
+[0mGET /_nuxt/78e1afd6e4c9665eac38.js [32m200 [0m165.332 ms - -[0m
+[0mGET /_nuxt/0c0fafe25bb9fdbe54bd.js [32m200 [0m167.352 ms - -[0m
+[0mGET /_nuxt/ad5a760a3960e0cd495e.js [32m200 [0m22.429 ms - -[0m
+[0mGET /v4/fullHashes:find?$req=ChwKDGdvb2dsZWNocm9tZRIMOTMuMC40NTc3LjYzEhsKDQgFEAYYASIDMDAxMAEQ36EMGgIYCMivC8sSGwoNCAEQBhgBIgMwMDEwARDluQkaAhgIJ0hHwBIZCg0IChAIGAEiAzAwMTABEAcaAhgIlTWK0xIbCg0IBxAGGAEiAzAwMTABEPr5CRoCGAimcXnOEhkKDQgBEAYYASIDMDAxMAMQFBoCGAix55AtEhsKDQgNEAYYASIDMDAxMAEQyKABGgIYCNdg3_8SGgoNCAEQCBgBIgMwMDEwBBD1IhoCGAjXAP1rEhkKDQgJEAYYASIDMDAxMAYQAxoCGAh5ozZ0EhoKDQgPEAYYASIDMDAxMAEQz3AaAhgIDJ0eSBIaCg0ICBAGGAEiAzAwMTABEIINGgIYCC4d-7sSGQoNCAkQBhgBIgMwMDEwARAfGgIYCGuJ5QQSGwoNCAMQBhgBIgMwMDEwARDkiQkaAhgI7CLgBxIbCg0IDhAGGAEiAzAwMTABENuBBhoCGAiydJLyEhoKDQgQEAYYASIDMDAxMAEQ4gwaAhgIOD0TKRouCAEIAwgFCAYIBwgICAkICggNCA4IDwgQCBEQBBAIGgYKBAZ19FYgASADIAQgBg==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw [32m200 [0m585.564 ms - -[0m
+[0mGET /v4/fullHashes:find?$req=ChwKDGdvb2dsZWNocm9tZRIMOTMuMC40NTc3LjYzEhsKDQgFEAYYASIDMDAxMAEQ36EMGgIYCMivC8sSGwoNCAEQBhgBIgMwMDEwARDluQkaAhgIJ0hHwBIZCg0IChAIGAEiAzAwMTABEAcaAhgIlTWK0xIbCg0IBxAGGAEiAzAwMTABEPr5CRoCGAimcXnOEhkKDQgBEAYYASIDMDAxMAMQFBoCGAix55AtEhsKDQgNEAYYASIDMDAxMAEQyKABGgIYCNdg3_8SGgoNCAEQCBgBIgMwMDEwBBD1IhoCGAjXAP1rEhkKDQgJEAYYASIDMDAxMAYQAxoCGAh5ozZ0EhoKDQgPEAYYASIDMDAxMAEQz3AaAhgIDJ0eSBIaCg0ICBAGGAEiAzAwMTABEIINGgIYCC4d-7sSGQoNCAkQBhgBIgMwMDEwARAfGgIYCGuJ5QQSGwoNCAMQBhgBIgMwMDEwARDkiQkaAhgI7CLgBxIbCg0IDhAGGAEiAzAwMTABENuBBhoCGAiydJLyEhoKDQgQEAYYASIDMDAxMAEQ4gwaAhgIOD0TKRouCAEIAwgFCAYIBwgICAkICggNCA4IDwgQCBEQBBAIGgYKBMxXmHwgASADIAQgBg==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw [32m200 [0m560.017 ms - -[0m
+[0mGET /_nuxt/45f897bb6029f34ed3a0.js [32m200 [0m27.602 ms - -[0m
+[0mGET /_nuxt/8d45c736b8cbe0056e9b.js [32m200 [0m71.214 ms - -[0m
+[0mGET /_nuxt/925a4a7effcabc937c89.js [32m200 [0m42.828 ms - -[0m
+[0mGET /_nuxt/33bce492aacb7ef0c598.js [32m200 [0m60.659 ms - -[0m
+[0mGET /_nuxt/953ffb1edaace2ddbec0.js [32m200 [0m47.159 ms - -[0m
+[0mGET /_nuxt/dd6a0fd7f73bcb3e0f70.js [32m200 [0m38.477 ms - -[0m
+[0mGET /cookieconsentpub/v1/geo/location [32m200 [0m205.645 ms - -[0m
+[0mGET /_nuxt/5f147a1cc3e196316afe.js [32m200 [0m15.548 ms - -[0m
+[0mGET /_nuxt/4874ac8b6ae0d4c9f201.js [32m200 [0m22.074 ms - -[0m
+[0mGET /_nuxt/a653847496d3eb23e911.js [32m200 [0m48.436 ms - -[0m
+[0mGET /_nuxt/2fca40d32271bc1d0277.js [32m200 [0m22.694 ms - -[0m
+[0mGET /scripttemplates/6.19.0/otBannerSdk.js [32m200 [0m97.768 ms - -[0m
+[0mGET /gtag/js?id=G-4L7ME39QVY&l=dataLayer&cx=c [32m200 [0m82.835 ms - -[0m
+[0mGET /branch-latest.min.js [32m200 [0m111.467 ms - -[0m
+[0mGET /consent/359cdbf5-566e-4055-b5d9-ea428ef827b6/458ee666-919a-4b0c-acf9-9a60e96817a5/en.json [32m200 [0m31.424 ms - -[0m
+[0mPOST /v1/input/pub6c459a8a69ee07fea29785039eee0208?ddsource=browser&ddtags=sdk_version%3A3.2.0%2Cenv%3Aproduction%2Cservice%3Acustomer-web%2Cversion%3A2432&batch_time=1631725673345 [32m200 [0m155.764 ms - -[0m
+[0mPOST /v1/input/pub6c459a8a69ee07fea29785039eee0208?ddsource=browser&ddtags=sdk_version%3A3.2.0%2Cenv%3Aproduction%2Cservice%3Acustomer-web%2Cversion%3A2432&batch_time=1631725673339 [32m200 [0m171.330 ms - -[0m
+[0mOPTIONS /eyes/open [32m204 [0m3.572 ms - -[0m
+2021-09-15T17:07:53Z Eyes: [LOG    ] {} (): [server] eyes api: open [testName,appName,browser,userAgent]
+2021-09-15T17:07:53Z Eyes: [LOG    ] {} Object.open(): [handlers] open: close=undefined, args= {"testName":"Glovo Ipad test","appName":"Glovo Ipad app","browser":[{"width":800,"height":600,"name":"chrome"},{"deviceName":"iPad (7th generation)","screenOrientation":"portrait","name":"chrome"}],"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"}
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} Object.openEyes(): openEyes: testName=Glovo Ipad test, browser= [{"width":800,"height":600,"name":"chrome"},{"deviceName":"iPad (7th generation)","screenOrientation":"portrait","name":"chrome"}]
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} (): runnerStartedEvent {"timestamp":"2021-09-15T17:07:53.565Z","level":"Notice","event":{"type":"runnerStarted","testConcurrency":5,"node":{"version":"v14.16.0","platform":"darwin","arch":"x64"}}}
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} ServerConnector.renderInfo(): ServerConnector.renderInfo called.
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} ServerConnector.logEvents(): ServerConnector.logEvents called with 1 events
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} (): axios request interceptor - renderInfo [1--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://eyesapi.applitools.com/api/sessions/renderinfo with params {"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} (): axios request interceptor - logEvents [2--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://eyesapi.applitools.com/api/sessions/log with params {"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+[0mPOST /g/collect?v=2&tid=G-4L7ME39QVY&gtm=2oe9d0&_p=1255175299&sr=1792x1120&ul=en-us&cid=1120325057.1631725674&_s=1&dl=https%3A%2F%2Fglovoapp.com%2F&dr=https%3A%2F%2Fglovoapp.com%2F__%2F&dt=Glovo%20International%20Website&sid=1631725673&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&ep.Field=Value&ep.Feild2=Header%20Link&ep.Event-name=gtm.js&up.Property1=Prop%20value [32m204 [0m51.879 ms - -[0m
+[0mGET /scripttemplates/6.19.0/assets/otFlat.json [32m200 [0m21.824 ms - -[0m
+[0mOPTIONS /features/query [32m200 [0m184.373 ms - -[0m
+[0mPOST /features/query [32m200 [0m89.587 ms - -[0m
+[0mGET /_nuxt/b635b413d074f3e11454.js [32m200 [0m23.117 ms - -[0m
+[0mGET /_nuxt/c56459110772f4eb85bf.js [32m200 [0m21.648 ms - -[0m
+[0mGET /_r?sdk=web2.58.3&branch_key=key_live_hedV9GCb9PcuwaQN1RV7Zngnwrb0LLLL&callback=branch_callback__0 [32m200 [0m131.629 ms - -[0m
+[0mGET /_nuxt/8a9f2ef2fa17963bd2e9.js [32m200 [0m42.144 ms - -[0m
+[0mGET /_nuxt/66236cf42437eb44f109.js [32m200 [0m21.992 ms - -[0m
+[0mGET /en_US/sdk.js [32m200 [0m56.561 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/partners-mask.svg [32m200 [0m62.498 ms - -[0m
+[0mGET /_nuxt/bbfdea952dc1e0394070.js [32m200 [0m141.881 ms - -[0m
+[0mGET /_nuxt/eadcda0ed71468d70972.js [32m200 [0m144.455 ms - -[0m
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} (): axios response interceptor - logEvents [2--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - result OK, status code 200, url https://eyesapi.applitools.com/api/sessions/log
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} ServerConnector.logEvents(): ServerConnector.logEvents - post succeeded 
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-left.svg [32m200 [0m71.506 ms - -[0m
+[0mGET /_nuxt/cbff43a20db86c36604f.js [32m200 [0m152.883 ms - -[0m
+[0mGET /_nuxt/918588cd84df60613291.js [32m200 [0m131.557 ms - -[0m
+[0mGET /_nuxt/925a4a7effcabc937c89.js [32m200 [0m128.698 ms - -[0m
+[0mGET /_nuxt/51763b830a6bcca1fa6b.js [32m200 [0m130.965 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-left.svg [32m200 [0m77.176 ms - -[0m
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} (): axios response interceptor - renderInfo [1--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - result OK, status code 200, url https://eyesapi.applitools.com/api/sessions/renderinfo
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} ServerConnector.renderInfo(): ServerConnector.renderInfo - post succeeded RenderingInfo { {"serviceUrl":"https://render-wus.applitools.com","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBQ1lzM3FiMExrS0VqVmk0RmMyLUNRfn4iLCJpYXQiOjE2MzE3MjU2NzMsImV4cCI6MTYzMTc0NzI3MywiaXNzIjoiZXllc2FwaS5hcHBsaXRvb2xzLmNvbSxleWVzcHVibGljd3VzaTAuYmxvYi5jb3JlLndpbmRvd3MubmV0IiwidmdzZXJ2aWNldXJsIjoiaHR0cHM6Ly9yZW5kZXItd3VzLmFwcGxpdG9vbHMuY29tIiwicHJ2IjoiMCJ9.H9lMqmQsHG0OuqN62wvjiCH6Qk1xZqKL046Dhdw1u1yNpDaRZxg48DPj3uut2htE1kt0Q_VOHc9HSqjEBvje5plNVZ3dVrcNbmIkLDIrwirYgC7LuDx9MMwtpozx7bzGCvfHfbBa6mZpfbWlHSs69mBhmlQQ-htmrT-2JhT1xQg","resultsUrl":"https://eyespublicwusi0.blob.core.windows.net/a184343-se/__random__?sv=2017-04-17&sr=c&sig=yM9w2g1%2BIrbIdg9JmNc%2FqJ%2FOm0jmRF0CK6K42TF%2BioE%3D&se=2021-09-16T17%3A07%3A53Z&sp=w&accessKey=jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110","stitchingServiceUrl":"https://eyesapi.applitools.com/api/images/stitching?accessKey=jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"} }
+2021-09-15T17:07:53Z Eyes: [LOG    ] {} EyesWrapper.setDeviceInfo(): Device Info: Desktop
+2021-09-15T17:07:53Z Eyes: [VERBOSE] {} EyesWrapper.setBatch(): setBatch(BatchInfo { {"id":"955699c2-0da0-4de9-bdd4-0df695d57d27","name":"Demo Batch - Cypress","properties":[],"startedAt":"2021-09-15T17:07:53.564Z","notifyOnCompletion":false} })
+2021-09-15T17:07:53Z Eyes: [LOG    ] {} EyesWrapper.setDeviceInfo(): Device Info: iPad (7th generation) (Chrome emulation)
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper.setBatch(): setBatch(BatchInfo { {"id":"955699c2-0da0-4de9-bdd4-0df695d57d27","name":"Demo Batch - Cypress","properties":[],"startedAt":"2021-09-15T17:07:53.564Z","notifyOnCompletion":false} })
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} Object.openEyes(): openEyes: opening wrappers
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper.openBase(): Agent = eyes-cypress/3.22.4
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper.openBase(): openBase('Glovo Ipad app', 'Glovo Ipad test', 'undefined')
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper.openBase(): Agent = eyes-cypress/3.22.4
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper.openBase(): openBase('Glovo Ipad app', 'Glovo Ipad test', 'undefined')
+2021-09-15T17:07:54Z Eyes: [LOG    ] {} Object.open(): [handlers] open finished
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Eyes server URL is 'https://eyesapi.applitools.com'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Timeout = 'undefined'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): matchTimeout = '2000'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Default match settings = 'ImageMatchSettings { {"matchLevel":"Strict","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]} }'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): FailureReports = 'ON_CLOSE'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Eyes server URL is 'https://eyesapi.applitools.com'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Timeout = 'undefined'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): matchTimeout = '2000'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): Default match settings = 'ImageMatchSettings { {"matchLevel":"Strict","ignoreCaret":true,"useDom":false,"enablePatterns":false,"ignoreDisplacements":false,"ignore":[],"layout":[],"strict":[],"content":[],"accessibility":[],"floating":[]} }'
+2021-09-15T17:07:54Z Eyes: [VERBOSE] {} EyesWrapper._logOpenBase(): FailureReports = 'ON_CLOSE'
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-center.svg [32m200 [0m86.589 ms - -[0m
+[0mPOST /v1/open [32m200 [0m171.871 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-center.svg [32m200 [0m26.771 ms - -[0m
+[0mPOST /eyes/open [32m200 [0m446.947 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-right.svg [32m200 [0m20.919 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-right.svg [32m200 [0m21.061 ms - -[0m
+[0mGET /_nuxt/fd602a982122bbda82ab.js [32m200 [0m22.413 ms - -[0m
+[0mOPTIONS /v3/whats_up [32m200 [0m84.557 ms - -[0m
+[0mGET /_nuxt/eadcda0ed71468d70972.js [32m200 [0m35.049 ms - -[0m
+[0mGET /_nuxt/fonts/535877f.woff [32m200 [0m52.651 ms - -[0m
+[0mGET /analytics.js [32m200 [0m50.792 ms - -[0m
+[0mGET /en_US/fbevents.js [32m200 [0m49.709 ms - -[0m
+[0mGET /v3/whats_up [32m200 [0m94.750 ms - -[0m
+[0mGET /en_US/sdk.js?hash=f7f1c12acd862892ac482ff036fdc080 [32m200 [0m46.733 ms - -[0m
+[0mPOST /v1/input/pub6c459a8a69ee07fea29785039eee0208?ddsource=browser&ddtags=sdk_version%3A3.2.0%2Cenv%3Aproduction%2Cservice%3Acustomer-web%2Cversion%3A2432&batch_time=1631725674058 [32m200 [0m116.620 ms - -[0m
+[0mGET /js/v2/4267cb1b816345499dbf77480d6518c8/mparticle.js [32m200 [0m99.972 ms - -[0m
+[0mPOST /v1/pageview [32m200 [0m285.538 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/logo_green.svg [32m200 [0m27.968 ms - -[0m
+[0mGET /glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/landing/address-container-image-burger.png [32m200 [0m24.873 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/dividers/divider-white-1.svg [32m200 [0m34.717 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/partners-mask.svg [32m200 [0m41.879 ms - -[0m
+[0mGET /glovoapp/image/fetch///https://glovoapp.com/images/icons/flag--white.svg [32m200 [0m42.775 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/delivery.svg [32m200 [0m14.647 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/restaurants.svg [32m200 [0m16.444 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/groceries.svg [32m200 [0m19.599 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/countries.svg [32m200 [0m13.004 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_desktop.svg [32m200 [0m11.167 ms - -[0m
+[0mGET /v1/pages/ChNDaHJvbWUvOTMuMC40NTc3LjYzEhAJFkwKDIzp6_cSBQ2RYZVO?alt=proto [32m200 [0m532.942 ms - -[0m
+[0mGET /glovoapp/image/fetch//w_121,h_82,c_fit,q_auto/https://glovoapp.com/images/corporate/together.svg [32m200 [0m17.494 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_mobile.svg [32m200 [0m21.413 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-center.svg [32m200 [0m12.697 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-left.svg [32m200 [0m15.100 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-left.svg [32m200 [0m20.041 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-center.svg [32m200 [0m15.296 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-right.svg [32m200 [0m49.477 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-right.svg [32m200 [0m44.864 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider1_mobile.svg [32m200 [0m39.503 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider1_desktop.svg [32m200 [0m46.015 ms - -[0m
+[0mGET /glovoapp//video/upload//website_assets/images/landing/address-container-animation.webm [32m200 [0m27.415 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_desktop.svg [32m200 [0m17.738 ms - -[0m
+[0mGET /_nuxt/fonts/4632a58.woff2 [32m200 [0m148.682 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/footer-wave.svg [32m200 [0m18.783 ms - -[0m
+[0mGET /glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/acquisition/banner-bg-shape-desktop.svg [32m200 [0m15.985 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_mobile.svg [32m200 [0m22.301 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/glovo-white.svg [32m200 [0m21.849 ms - -[0m
+[0mGET /glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/acquisition/banner-bg-shape-mobile.svg [32m200 [0m14.820 ms - -[0m
+[0mGET /_nuxt/fonts/d013ef1.woff [32m200 [0m163.519 ms - -[0m
+[0mGET /_nuxt/fonts/047e44f.woff2 [32m200 [0m173.248 ms - -[0m
+[0mGET /_nuxt/fonts/d519113.otf [32m200 [0m167.891 ms - -[0m
+[0mHEAD / [0m- [0m- ms - -[0m
+[0mHEAD / [0m- [0m- ms - -[0m
+[0mHEAD / [0m- [0m- ms - -[0m
+[0mGET /_nuxt/fonts/b61df99.otf [32m200 [0m182.871 ms - -[0m
+[0mGET /_nuxt/fonts/c81525c.woff2 [32m200 [0m46.263 ms - -[0m
+[0mGET /_nuxt/fonts/11b73bb.woff [32m200 [0m186.637 ms - -[0m
+[0mGET /_nuxt/fonts/535877f.woff [32m200 [0m26.949 ms - -[0m
+[0mGET /_nuxt/fonts/732389d.ttf [32m200 [0m16.091 ms - -[0m
+[0mGET /_nuxt/fonts/2537c5b.woff [32m200 [0m23.420 ms - -[0m
+[0mGET /_nuxt/fonts/7d71bf4.otf [32m200 [0m25.194 ms - -[0m
+[0mGET /plugins/ua/ecommerce.js [32m200 [0m170.785 ms - -[0m
+[0mGET /glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/dividers/divider-white-1.svg [32m200 [0m184.824 ms - -[0m
+[0mGET /signals/config/793918903989983?v=2.9.45&r=stable [32m200 [0m89.170 ms - -[0m
+[0mGET /maps/api/js?key=AIzaSyAk5UwwQ6TZyJ1pER_5bJhiUkUWWreLFSY&libraries=geometry%2Cplaces&region=MA&callback=vueGoogleMapsInit [32m200 [0m229.071 ms - -[0m
+[0mGET /gtag/js?id=10164213 [32m200 [0m76.733 ms - -[0m
+[0mGET /7f85a56ba4.css [32m200 [0m98.771 ms - -[0m
+[0mOPTIONS /v1/identify [32m204 [0m68.562 ms - -[0m
+[0mPOST /v1/identify [32m200 [0m27.337 ms - -[0m
+[0mGET /tr/?id=663382513776188&ev=fb_page_view&dl=https%3A%2F%2Fglovoapp.com%2F&rl=https%3A%2F%2Fglovoapp.com%2F__%2F&if=true&ts=1631725675270&sw=1792&sh=1120&at= [32m200 [0m63.606 ms - -[0m
+[0mPOST /j/collect?v=1&_v=j93&a=1255175299&t=pageview&_s=1&dl=https%3A%2F%2Fglovoapp.com%2F&dp=Home%20Global&ul=en-us&de=UTF-8&dt=Glovo%20International%20Website&sd=30-bit&sr=1792x1120&vp=985x660&je=0&an=Glovoapp&av=6.0.0&_u=aCDAAEIRAAAAAC~&jid=1202233422&gjid=878289038&cid=1120325057.1631725674&tid=UA-54100400-8&_gid=1206938790.1631725675&_r=1&z=911432161 [32m200 [0m33.391 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flogo_green.svg [32m204 [0m5.686 ms - -[0m
+[0mGET /tr/?id=793918903989983&ev=PageView&dl=https%3A%2F%2Fglovoapp.com%2F&rl=https%3A%2F%2Fglovoapp.com%2F__%2F&if=true&ts=1631725675630&sw=1792&sh=1120&v=2.9.45&r=stable&ec=0&o=30&fbp=fb.1.1631725675628.1347451749&it=1631725674586&coo=false&rqm=GET [32m200 [0m17.205 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Ff_auto%2Cq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Faddress-container-image-burger.png [32m204 [0m4.592 ms - -[0m
+[0mGET /signals/config/139797843598453?v=2.9.45&r=stable [32m200 [0m15.053 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2F%2Fvideo%2Fupload%2F%2Fwebsite_assets%2Fimages%2Flanding%2Faddress-container-animation.webm [32m204 [0m8.202 ms - -[0m
+[0mPOST /v1/input/pub6c459a8a69ee07fea29785039eee0208?ddsource=browser&ddtags=sdk_version%3A3.2.0%2Cenv%3Aproduction%2Cservice%3Acustomer-web%2Cversion%3A2432&batch_time=1631725675590 [32m200 [0m82.009 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2F%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Ficons%2Fflag--white.svg [32m204 [0m11.509 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdividers%2Fdivider-white-1.svg [32m204 [0m15.449 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fpartners-mask.svg [32m204 [0m17.358 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fwhy-glovo%2Frestaurants.svg [32m204 [0m20.173 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fwhy-glovo%2Fdelivery.svg [32m204 [0m16.272 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fwhy-glovo%2Fgroceries.svg [32m204 [0m15.342 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcountries.svg [32m204 [0m15.148 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider3_desktop.svg [32m204 [0m15.371 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider3_mobile.svg [32m204 [0m15.750 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fw_121%2Ch_82%2Cc_fit%2Cq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fcorporate%2Ftogether.svg [32m204 [0m8.982 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Fouter-mask-left.svg [32m204 [0m12.624 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Finner-mask-left.svg [32m204 [0m10.606 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Fouter-mask-center.svg [32m204 [0m9.259 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Finner-mask-center.svg [32m204 [0m12.425 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Fouter-mask-right.svg [32m204 [0m9.402 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Finner-mask-right.svg [32m204 [0m9.261 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider1_desktop.svg [32m204 [0m10.419 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider1_mobile.svg [32m204 [0m7.775 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider2_desktop.svg [32m204 [0m10.070 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider2_mobile.svg [32m204 [0m11.979 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Ffooter-wave.svg [32m204 [0m9.023 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fglovo-white.svg [32m204 [0m11.624 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Ff_auto%2Cq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Facquisition%2Fbanner-bg-shape-desktop.svg [32m204 [0m13.922 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Ff_auto%2Cq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Facquisition%2Fbanner-bg-shape-mobile.svg [32m204 [0m11.229 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F4632a58.woff2 [32m204 [0m14.115 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2Fd013ef1.woff [32m204 [0m15.068 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2Fd519113.otf [32m204 [0m13.066 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F047e44f.woff2 [32m204 [0m12.100 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F11b73bb.woff [32m204 [0m12.136 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2Fb61df99.otf [32m204 [0m12.451 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2Fc81525c.woff2 [32m204 [0m11.248 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F2537c5b.woff [32m204 [0m13.876 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F7d71bf4.otf [32m204 [0m14.115 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F535877f.woff [32m204 [0m12.978 ms - -[0m
+2021-09-15T17:07:55Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/logo_green.svg 2318
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flogo_green.svg [32m200 [0m156.407 ms - -[0m
+[0mOPTIONS /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F732389d.ttf [32m204 [0m12.325 ms - -[0m
+2021-09-15T17:07:55Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/landing/address-container-image-burger.png 46547
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Ff_auto%2Cq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Faddress-container-image-burger.png [32m200 [0m126.407 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch///https://glovoapp.com/images/icons/flag--white.svg 291
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2F%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Ficons%2Fflag--white.svg [32m200 [0m283.393 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/dividers/divider-white-1.svg 262
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdividers%2Fdivider-white-1.svg [32m200 [0m285.981 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/partners-mask.svg 422
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fpartners-mask.svg [32m200 [0m283.011 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/restaurants.svg 8448
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/delivery.svg 7551
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fwhy-glovo%2Frestaurants.svg [32m200 [0m287.303 ms - -[0m
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fwhy-glovo%2Fdelivery.svg [32m200 [0m281.961 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/groceries.svg 13976
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fwhy-glovo%2Fgroceries.svg [32m200 [0m18.023 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/countries.svg 6413
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_desktop.svg 157
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcountries.svg [32m200 [0m18.637 ms - -[0m
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider3_desktop.svg [32m200 [0m16.523 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_mobile.svg 170
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider3_mobile.svg [32m200 [0m16.327 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//w_121,h_82,c_fit,q_auto/https://glovoapp.com/images/corporate/together.svg 2700
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp//video/upload//website_assets/images/landing/address-container-animation.webm 659467
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fw_121%2Ch_82%2Cc_fit%2Cq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fcorporate%2Ftogether.svg [32m200 [0m19.627 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-left.svg 451
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2F%2Fvideo%2Fupload%2F%2Fwebsite_assets%2Fimages%2Flanding%2Faddress-container-animation.webm [32m200 [0m334.964 ms - -[0m
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Fouter-mask-left.svg [32m200 [0m16.188 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-left.svg 436
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Finner-mask-left.svg [32m200 [0m14.156 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-center.svg 448
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Fouter-mask-center.svg [32m200 [0m14.972 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-center.svg 444
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Finner-mask-center.svg [32m200 [0m13.831 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-right.svg 441
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Fouter-mask-right.svg [32m200 [0m14.070 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-right.svg 443
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider1_desktop.svg 209
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fcorporate%2Finner-mask-right.svg [32m200 [0m16.779 ms - -[0m
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider1_desktop.svg [32m200 [0m17.092 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider1_mobile.svg 171
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider1_mobile.svg [32m200 [0m18.323 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_desktop.svg 196
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider2_desktop.svg [32m200 [0m18.797 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_mobile.svg 171
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/footer-wave.svg 212
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Fdivider2_mobile.svg [32m200 [0m18.564 ms - -[0m
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Flanding%2Ffooter-wave.svg [32m200 [0m14.035 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/glovo-white.svg 2370
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Fq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Fglovo-white.svg [32m200 [0m12.812 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/acquisition/banner-bg-shape-desktop.svg 1361
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Ff_auto%2Cq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Facquisition%2Fbanner-bg-shape-desktop.svg [32m200 [0m17.746 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/acquisition/banner-bg-shape-mobile.svg 934
+[0mPUT /eyes/resource/https%3A%2F%2Fres.cloudinary.com%2Fglovoapp%2Fimage%2Ffetch%2F%2Ff_auto%2Cq_auto%2Fhttps%3A%2F%2Fglovoapp.com%2Fimages%2Facquisition%2Fbanner-bg-shape-mobile.svg [32m200 [0m14.704 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/4632a58.woff2 24840
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F4632a58.woff2 [32m200 [0m21.150 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/d013ef1.woff 93212
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2Fd013ef1.woff [32m200 [0m24.989 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/d519113.otf 99140
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2Fd519113.otf [32m200 [0m42.135 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/047e44f.woff2 25964
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F047e44f.woff2 [32m200 [0m43.970 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/11b73bb.woff 94488
+[0mGET /releases/v4.7.0/css/font-awesome-css.min.css [32m200 [0m532.655 ms - -[0m
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F11b73bb.woff [32m200 [0m55.137 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/b61df99.otf 99364
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2Fb61df99.otf [32m200 [0m71.577 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/c81525c.woff2 25736
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2Fc81525c.woff2 [32m200 [0m85.569 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/2537c5b.woff 93584
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F2537c5b.woff [32m200 [0m93.574 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/7d71bf4.otf 102900
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F7d71bf4.otf [32m200 [0m93.495 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/535877f.woff 28200
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F535877f.woff [32m200 [0m98.388 ms - -[0m
+[0mPOST /j/collect?v=1&_v=j93&a=1255175299&t=event&_s=1&dl=https%3A%2F%2Fglovoapp.com%2F&ul=en-us&de=UTF-8&dt=Glovo%20International%20Website&sd=30-bit&sr=1792x1120&vp=985x660&je=0&ec=Other&ea=Dynamic%20Session%20Started&el=&_u=aCDAAEIRAAAAAC~&jid=1885254537&gjid=1411272292&cid=1120325057.1631725674&tid=UA-54100400-13&_gid=1206938790.1631725675&_r=1&_slc=1&z=1204092169 [32m200 [0m518.533 ms - -[0m
+[0mPOST /v2/JS/4267cb1b816345499dbf77480d6518c8/Events [32m202 [0m555.651 ms - -[0m
+[0mPOST /v1/JS/4267cb1b816345499dbf77480d6518c8/Forwarding [32m202 [0m577.196 ms - -[0m
+[0mPOST /v2/JS/4267cb1b816345499dbf77480d6518c8/Events [32m202 [0m595.856 ms - -[0m
+[0mPOST /v1/JS/4267cb1b816345499dbf77480d6518c8/Forwarding [32m202 [0m576.907 ms - -[0m
+[0mPOST /v2/JS/4267cb1b816345499dbf77480d6518c8/Events [32m202 [0m598.140 ms - -[0m
+[0mPOST /v2/JS/4267cb1b816345499dbf77480d6518c8/Events [32m202 [0m567.614 ms - -[0m
+2021-09-15T17:07:56Z Eyes: [LOG    ] {} (): [server] PUT resource: https://glovoapp.com/_nuxt/fonts/732389d.ttf 55956
+[0mGET /a?id=10164213&cv=1&v=3&t=t&pid=1201525857&rv=9d0&es=1&e=gtm.init_consent&eid=14&tc=0&z=0 [32m204 [0m532.804 ms - -[0m
+[0mPUT /eyes/resource/https%3A%2F%2Fglovoapp.com%2F_nuxt%2Ffonts%2F732389d.ttf [32m200 [0m143.471 ms - -[0m
+[0mGET /a?id=10164213&cv=1&v=3&t=t&pid=1201525857&rv=9d0&es=1&e=*&eid=4&tc=0&z=0 [32m204 [0m554.674 ms - -[0m
+[0mGET /a?id=10164213&cv=1&v=3&t=t&pid=1201525857&rv=9d0&es=1&e=gtm.dom&eid=5&tc=0&z=0 [32m204 [0m564.158 ms - -[0m
+[0mGET /a?id=10164213&cv=1&v=3&t=t&pid=1201525857&rv=9d0&es=1&e=*&eid=3&tc=0&z=0 [32m204 [0m567.215 ms - -[0m
+[0mGET /a?id=10164213&cv=1&v=3&t=t&pid=1201525857&rv=9d0&es=1&e=gtm.init&eid=15&tc=0&z=0 [32m204 [0m568.607 ms - -[0m
+[0mPOST /v1/JS/4267cb1b816345499dbf77480d6518c8/Forwarding [32m202 [0m147.162 ms - -[0m
+[0mPOST /v2/JS/4267cb1b816345499dbf77480d6518c8/Events [32m202 [0m148.719 ms - -[0m
+[0mPOST /j/collect?t=dc&aip=1&_r=3&v=1&_v=j93&tid=UA-54100400-8&cid=1120325057.1631725674&jid=1202233422&gjid=878289038&_gid=1206938790.1631725675&_u=aCDAAEIQAAAAAC~&z=831051397 [32m200 [0m592.274 ms - -[0m
+[0mPOST /tr/ [32m200 [0m13.784 ms - -[0m
+[0mPOST /j/collect?t=dc&aip=1&_r=3&v=1&_v=j93&tid=UA-54100400-13&cid=1120325057.1631725674&jid=1885254537&gjid=1411272292&_gid=1206938790.1631725675&_u=aCDAAEIRAAAAAC~&z=676514584 [32m200 [0m30.325 ms - -[0m
+[0mGET /a?id=10164213&cv=1&v=3&t=t&pid=1201525857&rv=9d0&es=1&e=*&eid=12&u=C&tc=0&z=0 [32m204 [0m29.669 ms - -[0m
+[0mGET /ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j93&tid=UA-54100400-8&cid=1120325057.1631725674&jid=1202233422&_u=aCDAAEIQAAAAAC~&z=1951315938 [32m200 [0m59.658 ms - -[0m
+[0mGET /ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j93&tid=UA-54100400-13&cid=1120325057.1631725674&jid=1885254537&_u=aCDAAEIRAAAAAC~&z=431356876 [32m200 [0m57.353 ms - -[0m
+[0mOPTIONS /eyes/checkWindow [32m204 [0m3.559 ms - -[0m
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} (): [server] eyes api: checkWindow [url,snapshot,browser,tag,target,fully]
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} Object.checkWindow(): [handlers] checkWindow: checkWindow=function
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} (): running checkWindow for test Glovo Ipad test step #1
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): starting checkWindowJob. test=Glovo Ipad test stepCount #1 index=0
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): starting checkWindowJob. test=Glovo Ipad test stepCount #1 index=1
+[0mGET /v1/pages/ChNDaHJvbWUvOTMuMC40NTc3LjYzEqoBCTlC__qcRUdmEgUNIV8WhBIFDShWp_USBQ0_45jaEgUNnqKTNxIFDdnUiBsSBQ2ikMzbEgUNHaiW9RIFDe1wMycSBQ0O0UKgEgUNcS5k1RIFDVnSH6wSBQ37aBPWEgUNe2AuohIFDQ0KU9cSBQ2Nz64EEgUNZzVezhIFDQmyauUSBQ2iOKbhEgUN82UTYBIFDfwEarYSBQ3uOGV-EgUN-Jwt-xIFDTQh_R0=?alt=proto [32m200 [0m537.268 ms - -[0m
+[0mPOST /eyes/checkWindow [32m200 [0m42.862 ms - -[0m
+[0mOPTIONS /eyes/close [32m204 [0m2.878 ms - -[0m
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} (): [server] eyes api: close 
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} Object.close(): [handlers] close: openErr=undefined, close=function, checkWindow=function, resources=count:38
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} (): closeEyes() called
+[0mPOST /eyes/close [32m200 [0m4.722 ms - -[0m
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} ServerConnector.renderGetRenderJobInfo(): ServerConnector.renderGetRenderJobInfo called with RenderRequest { {"webhook":"https://eyespublicwusi0.blob.core.windows.net/a184343-se/__random__?sv=2017-04-17&sr=c&sig=yM9w2g1%2BIrbIdg9JmNc%2FqJ%2FOm0jmRF0CK6K42TF%2BioE%3D&se=2021-09-16T17%3A07%3A53Z&sp=w&accessKey=jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110","stitchingService":"https://eyesapi.applitools.com/api/images/stitching?accessKey=jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110","url":"https://glovoapp.com/","dom":null,"resources":null,"enableMultipleResultsPerSelector":true,"browser":{"name":"chrome"},"renderInfo":{"width":800,"height":600,"sizeMode":"full-page"},"sendDom":true} },RenderRequest { {"webhook":"https://eyespublicwusi0.blob.core.windows.net/a184343-se/__random__?sv=2017-04-17&sr=c&sig=yM9w2g1%2BIrbIdg9JmNc%2FqJ%2FOm0jmRF0CK6K42TF%2BioE%3D&se=2021-09-16T17%3A07%3A53Z&sp=w&accessKey=jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110","stitchingService":"https://eyesapi.applitools.com/api/images/stitching?accessKey=jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110","url":"https://glovoapp.com/","dom":null,"resources":null,"enableMultipleResultsPerSelector":true,"browser":{"name":"chrome"},"renderInfo":{"sizeMode":"full-page","emulationInfo":{"deviceName":"iPad (7th generation)","screenOrientation":"portrait"}},"sendDom":true} }
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo [3--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://render-wus.applitools.com/job-info with params {} and body length 2
+[0mPOST /v1/input/pub6c459a8a69ee07fea29785039eee0208?ddsource=browser&ddtags=sdk_version%3A3.2.0%2Cenv%3Aproduction%2Cservice%3Acustomer-web%2Cversion%3A2432&batch_time=1631725678000 [32m200 [0m126.407 ms - -[0m
+[0mOPTIONS /eyes/batchEnd [32m204 [0m2.953 ms - -[0m
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} (): [server] eyes api: batchEnd 
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} Object.batchEnd(): [handlers] batchEnd
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} (): Waiting for test results of 1 tests.
+[0mPOST /eyes/batchEnd [32m200 [0m3.310 ms - -[0m
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} ServerConnector.renderCheckResources(): ServerConnector.renderCheckResources called with resources - 356422f30d3fe5528f7cc8094d9d966fbdaa5e90498b43780ac28088a1cf7286,96f105cb00d0b9ff42372cde95b2530939de7f016ab37de971128217f2812047,c97d0b41b1610c483c6399f4b4a1d8a2e8cf1abbce614e5459b54e003b711d13,1c59732cd147cdff2ef948b79f384287f093b5c785c053ca3d397d7ccbff4a5f,48d28662c2bde0e17f36c1967d558d6ec40ae25dd94fe3c1c7f58bdb83770a11,52c95fb9f3ab810c9ed47826c659244ab70ac8255e3e4f6412aab9dd115659c2,a2ebe0b62ade341d37d64d0fb3b4eabda101a51a53268948bfea012c86139c5d,e4e8e6feab0511c81388f7696d39ded1ac38b2731f9043e65a403a6c443b56a8,7b3896f1ff2d163adb0f45e112baddefaa415bc148b201da3e7b4714e97dba42,d1efc56a94c0b94b20c246da5158154545eeea3824d4b9b7554e5e7f2838073e,c640e8487da9940958a344c7cc4f555405b44c2ffd449245f49674eae0d04a61,4825e0bbfac5a88c6149fffac03d6415f1b7e00c7361f5aa46b7440a5e95f5f6,91443ecaf3694035062fb04f1ff04f501ff2d3bf00018f33b6e20567182b6e76,aa5fcbe77a7480e23e52897deb43af17b9df109ceada737c10f2559fb89f536e,5ccbe73b928db509cd4154eefa264ffb5a804632c2f2623f28d6d97fa24dfa78,a9fba50e6a719d48f47dc22803903c90df5035d030b8d54c620fe85238df467d,6a1ec838d152c65b28b719d6fecb14b9756c2770e1b5b5da15616900aa3ca8a3,2fff1daba0287d2893bed5aefd883bdb4f392e80119b375e7bc9f71a96b9e6e8,a5f00b2da7a0ea467ca7bf057bfc2b616d820f7599260c4ded4bfbb6c7400ac0,7f04d0c8f151bc3a6e58aea8d8275cdf5322913d5ca1b66dc02e41893ad1c1a1,01d9c5e5243ab0fb46c682cf26ad23e450f8e3748ba2d0c009b1c56f116ab008,092d4da06fe5185291067e0a391c8fc15b65d9702cf13b405972b7655f336773,2a041095aa2159bdea2a9740c537f60ec4a56fbc88830a3a49a5fd7a0f6fc2a8,22ced9dd602dcde09f4dc6229060b303108ee00105d971893243298895d69d68,a4b1aa8681a61ff1225d2f909e59a8bd75a194702a691a9a61bd4b48552ab940,3ed511babc668cf21dedb87c203fe168fa0d7564aee0422ea973190202a28e06,23cc0d14d7492ab7ce8a7abae7dbc3210a72dbca90e2b89f15a5db937c20c6b3,d85623aa571e70af82f0e945bb6c67d469e964b8bf36973325138ea4b2cbdd5a,664e23da9a62167dac9464505363b27745a8cd6a5d8ec1065f53373f9b779ea7,c5808dd70233b3cca457a7b4c036633f4baf35dcb0977f9061977ddfad3c2303,52f2032eee0668cc2227bca6ba0764cddcec03716a9186d7e890437cb8a58819,4f05d4fd55cadca3c672968d57848eb38094fb9afe18037cba6d325ba0ab971d,b36a8500b1f95afacda69a5604c0e0593eb8e3d964f6442775dd720f85a28136,d14b56377fc75359100fc8471dac2996e4296cb11eeb66c84cf98764ed7f6346,c4091e82970678713c8ad1a4ed1ef383107aa0b3c25a1d20aebd12d767b83e9d,c6b949f240071a5a8aec0fa965ff8cd9e7a902daabe04f3011657132e14523e2,d8f8b107384477a5325656f339956c0f00c1f0428397657d50b5c1d4a9bf225b,ab40a58972be2ceab32e7e35dab3131b959aae63835d7bda1a79ae51f9a73c17,a30f5b3ba6a48822eae041e0ca5412a289125e4ba661d047dae565ac43b4a6b2
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios request interceptor - renderCheckResources [4--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://render-wus.applitools.com/resources/query/resources-exist with params {"render-id":"fe808027-62c2-4983-80f8-6c1b4da7d492"} and body length 39
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} (): axios error interceptor - renderGetRenderJobInfo [3--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - post request failed. reason=Request failed with status code 500(Internal Server Error) | url=https://render-wus.applitools.com/job-info | status=500 | params={}
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios error interceptor - renderGetRenderJobInfo - failure body:
+could not find renderer information on browser chrome-0 and device iPad (7th generation)
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo [5--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 3--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://render-wus.applitools.com/job-info with params {} and body length 1246
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo request delayed for 200 ms.
+[0mOPTIONS /api/v3/data/ [32m200 [0m3682.918 ms - -[0m
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios response interceptor - renderCheckResources [4--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - result OK, status code 200, url https://render-wus.applitools.com/resources/query/resources-exist
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} ServerConnector.renderCheckResources(): ServerConnector.renderCheckResources - request succeeded
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource called with resource#356422f30d3fe5528f7cc8094d9d966fbdaa5e90498b43780ac28088a1cf7286
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios request interceptor - renderPutResource [6--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://render-wus.applitools.com/resources/sha256/356422f30d3fe5528f7cc8094d9d966fbdaa5e90498b43780ac28088a1cf7286 with params {"render-id":"98f3714b-3000-4988-a03c-b00e1f399fcc"} and body length 377497
+2021-09-15T17:07:58Z Eyes: [LOG    ] {} (): axios error interceptor - renderGetRenderJobInfo [5--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - post request failed. reason=Request failed with status code 500(Internal Server Error) | url=https://render-wus.applitools.com/job-info | status=500 | params={}
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios error interceptor - renderGetRenderJobInfo - failure body:
+could not find renderer information on browser chrome-0 and device iPad (7th generation)
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo [7--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 3--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://render-wus.applitools.com/job-info with params {} and body length 1246
+2021-09-15T17:07:58Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo request delayed for 200 ms.
+2021-09-15T17:07:59Z Eyes: [LOG    ] {} (): [server] eyes api: batchEnd 
+2021-09-15T17:07:59Z Eyes: [LOG    ] {} Object.batchEnd(): [handlers] batchEnd
+[0mPOST /eyes/batchEnd [32m200 [0m4.906 ms - -[0m
+2021-09-15T17:07:59Z Eyes: [LOG    ] {} (): axios error interceptor - renderGetRenderJobInfo [7--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - post request failed. reason=Request failed with status code 500(Internal Server Error) | url=https://render-wus.applitools.com/job-info | status=500 | params={}
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios error interceptor - renderGetRenderJobInfo - failure body:
+could not find renderer information on browser chrome-0 and device iPad (7th generation)
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo [8--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 3--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://render-wus.applitools.com/job-info with params {} and body length 1246
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo request delayed for 200 ms.
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios response interceptor - renderPutResource [6--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - result OK, status code 200, url https://render-wus.applitools.com/resources/sha256/356422f30d3fe5528f7cc8094d9d966fbdaa5e90498b43780ac28088a1cf7286
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} ServerConnector.renderPutResource(): ServerConnector.putResource - request succeeded. Response: {"hash":"356422f30d3fe5528f7cc8094d9d966fbdaa5e90498b43780ac28088a1cf7286"}
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  undefined
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/logo_green.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/landing/address-container-image-burger.png
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp//video/upload//website_assets/images/landing/address-container-animation.webm
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch///https://glovoapp.com/images/icons/flag--white.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/dividers/divider-white-1.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/partners-mask.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/restaurants.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/delivery.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/groceries.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/countries.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_desktop.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_mobile.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//w_121,h_82,c_fit,q_auto/https://glovoapp.com/images/corporate/together.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-left.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-left.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-center.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-center.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-right.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-right.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider1_desktop.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider1_mobile.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_desktop.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_mobile.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/footer-wave.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/glovo-white.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/acquisition/banner-bg-shape-desktop.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/acquisition/banner-bg-shape-mobile.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/4632a58.woff2
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/d013ef1.woff
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/d519113.otf
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/047e44f.woff2
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/11b73bb.woff
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/b61df99.otf
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/c81525c.woff2
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/2537c5b.woff
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/7d71bf4.otf
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/535877f.woff
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/732389d.ttf
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  undefined
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/logo_green.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/landing/address-container-image-burger.png
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp//video/upload//website_assets/images/landing/address-container-animation.webm
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch///https://glovoapp.com/images/icons/flag--white.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/dividers/divider-white-1.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/partners-mask.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/restaurants.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/delivery.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/why-glovo/groceries.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/countries.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_desktop.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider3_mobile.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//w_121,h_82,c_fit,q_auto/https://glovoapp.com/images/corporate/together.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-left.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-left.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-center.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-center.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/outer-mask-right.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/corporate/inner-mask-right.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider1_desktop.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider1_mobile.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_desktop.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/divider2_mobile.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/landing/footer-wave.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//q_auto/https://glovoapp.com/images/glovo-white.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/acquisition/banner-bg-shape-desktop.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://res.cloudinary.com/glovoapp/image/fetch//f_auto,q_auto/https://glovoapp.com/images/acquisition/banner-bg-shape-mobile.svg
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/4632a58.woff2
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/d013ef1.woff
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/d519113.otf
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/047e44f.woff2
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/11b73bb.woff
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/b61df99.otf
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/c81525c.woff2
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/2537c5b.woff
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/7d71bf4.otf
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/535877f.woff
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): setting resource to cache:  https://glovoapp.com/_nuxt/fonts/732389d.ttf
+2021-09-15T17:07:59Z Eyes: [LOG    ] {} (): axios error interceptor - renderGetRenderJobInfo [8--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - post request failed. reason=Request failed with status code 500(Internal Server Error) | url=https://render-wus.applitools.com/job-info | status=500 | params={}
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios error interceptor - renderGetRenderJobInfo - failure body:
+could not find renderer information on browser chrome-0 and device iPad (7th generation)
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo [9--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 3--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://render-wus.applitools.com/job-info with params {} and body length 1246
+2021-09-15T17:07:59Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo request delayed for 200 ms.
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} (): [server] eyes api: batchEnd 
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} Object.batchEnd(): [handlers] batchEnd
+[0mPOST /eyes/batchEnd [32m200 [0m4.477 ms - -[0m
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} (): axios error interceptor - renderGetRenderJobInfo [9--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - post request failed. reason=Request failed with status code 500(Internal Server Error) | url=https://render-wus.applitools.com/job-info | status=500 | params={}
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): axios error interceptor - renderGetRenderJobInfo - failure body:
+could not find renderer information on browser chrome-0 and device iPad (7th generation)
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo [10--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 3--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://render-wus.applitools.com/job-info with params {} and body length 1246
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): axios request interceptor - renderGetRenderJobInfo request delayed for 200 ms.
+[0mGET /maps-api-v3/api/js/45/8b/common.js [32m200 [0m14.975 ms - -[0m
+[0mGET /maps-api-v3/api/js/45/8b/util.js [32m200 [0m33.366 ms - -[0m
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} (): axios error interceptor - renderGetRenderJobInfo [10--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - post request failed. reason=Request failed with status code 500(Internal Server Error) | url=https://render-wus.applitools.com/job-info | status=500 | params={}
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): axios error interceptor - renderGetRenderJobInfo - failure body:
+could not find renderer information on browser chrome-0 and device iPad (7th generation)
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} (): error set in test Glovo Ipad test Error: Request failed with status code 500(Internal Server Error)
+    at handleRequestError (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/requestHelpers.js:234:9)
+    at /Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:132:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ServerConnector.renderGetRenderJobInfo (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:575:22)
+    at async getRenderJobInfo (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/visual-grid-client/src/sdk/getRenderJobInfo.js:23:29)
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} (): error set in test Glovo Ipad test Error: Request failed with status code 500(Internal Server Error)
+    at handleRequestError (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/requestHelpers.js:234:9)
+    at /Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:132:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ServerConnector.renderGetRenderJobInfo (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:575:22)
+    at async getRenderJobInfo (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/visual-grid-client/src/sdk/getRenderJobInfo.js:23:29)
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): waitForTestEnd() checkWindow 0 done
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): waitForTestEnd() checkWindow 1 done
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): waitForTestEnd() open 0 done
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} (): closeEyes() found test error
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): waitForTestEnd() open 1 done
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} (): closeEyes() found test error
+2021-09-15T17:08:00Z Eyes: [LOG    ] {} (): closeEyes() done
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} ServerConnector.deleteBatchSessions(): ServerConnector.deleteBatchSessions called for batchId: 955699c2-0da0-4de9-bdd4-0df695d57d27
+2021-09-15T17:08:00Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions [11--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid with params {"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:01Z Eyes: [LOG    ] {} (): axios error interceptor - deleteBatchSessions [11--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - delete request failed. reason=Request failed with status code 404(Not Found) | url=https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid | status=404 | params={"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:01Z Eyes: [VERBOSE] {} (): axios error interceptor - deleteBatchSessions - failure body:
+Batch not found
+2021-09-15T17:08:01Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:08:01Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions [12--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 11--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid with params {"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:01Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions request delayed for 200 ms.
+2021-09-15T17:08:01Z Eyes: [LOG    ] {} (): [server] eyes api: batchEnd 
+2021-09-15T17:08:01Z Eyes: [LOG    ] {} Object.batchEnd(): [handlers] batchEnd
+[0mPOST /eyes/batchEnd [32m200 [0m4.045 ms - -[0m
+2021-09-15T17:08:01Z Eyes: [LOG    ] {} (): axios error interceptor - deleteBatchSessions [12--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - delete request failed. reason=Request failed with status code 404(Not Found) | url=https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid | status=404 | params={"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:01Z Eyes: [VERBOSE] {} (): axios error interceptor - deleteBatchSessions - failure body:
+Batch not found
+2021-09-15T17:08:01Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:08:01Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions [13--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 11--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid with params {"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:01Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions request delayed for 200 ms.
+2021-09-15T17:08:02Z Eyes: [LOG    ] {} (): axios error interceptor - deleteBatchSessions [13--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - delete request failed. reason=Request failed with status code 404(Not Found) | url=https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid | status=404 | params={"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:02Z Eyes: [VERBOSE] {} (): axios error interceptor - deleteBatchSessions - failure body:
+Batch not found
+2021-09-15T17:08:02Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:08:02Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions [14--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 11--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid with params {"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:02Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions request delayed for 200 ms.
+2021-09-15T17:08:02Z Eyes: [LOG    ] {} (): [server] eyes api: batchEnd 
+2021-09-15T17:08:02Z Eyes: [LOG    ] {} Object.batchEnd(): [handlers] batchEnd
+[0mPOST /eyes/batchEnd [32m200 [0m19.053 ms - -[0m
+2021-09-15T17:08:02Z Eyes: [LOG    ] {} (): axios error interceptor - deleteBatchSessions [14--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - delete request failed. reason=Request failed with status code 404(Not Found) | url=https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid | status=404 | params={"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:02Z Eyes: [VERBOSE] {} (): axios error interceptor - deleteBatchSessions - failure body:
+Batch not found
+2021-09-15T17:08:02Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:08:02Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions [15--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 11--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid with params {"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:02Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions request delayed for 200 ms.
+2021-09-15T17:08:03Z Eyes: [LOG    ] {} (): axios error interceptor - deleteBatchSessions [15--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - delete request failed. reason=Request failed with status code 404(Not Found) | url=https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid | status=404 | params={"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:03Z Eyes: [VERBOSE] {} (): axios error interceptor - deleteBatchSessions - failure body:
+Batch not found
+2021-09-15T17:08:03Z Eyes: [VERBOSE] {} (): axios error interceptor retrying request with delay 200...
+2021-09-15T17:08:03Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions [16--4cabc11a-a2f1-4339-984b-4cf992d18fa8 retry of 11--4cabc11a-a2f1-4339-984b-4cf992d18fa8] will now call to https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid with params {"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:03Z Eyes: [VERBOSE] {} (): axios request interceptor - deleteBatchSessions request delayed for 200 ms.
+[0mOPTIONS /eyes/batchEnd [32m204 [0m5.283 ms - -[0m
+2021-09-15T17:08:03Z Eyes: [LOG    ] {} (): [server] eyes api: batchEnd 
+2021-09-15T17:08:03Z Eyes: [LOG    ] {} Object.batchEnd(): [handlers] batchEnd
+[0mPOST /eyes/batchEnd [32m200 [0m3.430 ms - -[0m
+[0mOPTIONS /frontend_metrics/metrics [32m200 [0m85.630 ms - -[0m
+[0mPOST /frontend_metrics/metrics [32m200 [0m151.718 ms - -[0m
+2021-09-15T17:08:03Z Eyes: [LOG    ] {} (): axios error interceptor - deleteBatchSessions [16--4cabc11a-a2f1-4339-984b-4cf992d18fa8] - delete request failed. reason=Request failed with status code 404(Not Found) | url=https://eyesapi.applitools.com/api/sessions/batches/955699c2-0da0-4de9-bdd4-0df695d57d27/close/bypointerid | status=404 | params={"apiKey":"jEL0XsWzL106ZjemtG6BvA1Gyznd108rUGMRvXQpNCGdyGg110"}
+2021-09-15T17:08:03Z Eyes: [VERBOSE] {} (): axios error interceptor - deleteBatchSessions - failure body:
+Batch not found
+2021-09-15T17:08:03Z Eyes: [LOG    ] {} (): failed to close batch Error: Request failed with status code 404(Not Found)
+    at handleRequestError (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/requestHelpers.js:234:9)
+    at /Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:132:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ServerConnector.deleteBatchSessions (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:253:22)
+    at async Promise.all (index 0)
+    at async /Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/visual-grid-client/src/sdk/makeCloseBatch.js:11:5
+    at async processCloseAndAbort (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-cypress/src/plugin/processCloseAndAbort.js:26:17)
+    at async /Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-cypress/src/plugin/waitForBatch.js:17:36
+
+Important notice: Your Applitools visual tests are currently running with a testConcurrency value of 5.
+This means that only up to 5 visual tests can run in parallel, and therefore the execution might be slower.
+If your Applitools license supports a higher concurrency level, learn how to configure it here: https://www.npmjs.com/package/@applitools/eyes-cypress#concurrency.
+Need a higher concurrency in your account? Email us @ sdr@applitools.com with your required concurrency level.
+2021-09-15T17:08:03Z Eyes: [LOG    ] {} (): errorDigest: diff errors 
+2021-09-15T17:08:03Z Eyes: [LOG    ] {} (): errorDigest: test errors [Error: Request failed with status code 500(Internal Server Error)
+    at handleRequestError (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/requestHelpers.js:234:9)
+    at /Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:132:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ServerConnector.renderGetRenderJobInfo (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:575:22)
+    at async getRenderJobInfo (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/visual-grid-client/src/sdk/getRenderJobInfo.js:23:29),Error: Request failed with status code 500(Internal Server Error)
+    at handleRequestError (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/requestHelpers.js:234:9)
+    at /Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:132:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ServerConnector.renderGetRenderJobInfo (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-sdk-core/lib/server/ServerConnector.js:575:22)
+    at async getRenderJobInfo (/Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/visual-grid-client/src/sdk/getRenderJobInfo.js:23:29)]
+[0mPOST /frontend_metrics/metrics [32m200 [0m84.658 ms - -[0m
+2021-09-15T17:08:04Z Eyes: [LOG    ] {} (): [server] eyes api: batchEnd 
+2021-09-15T17:08:04Z Eyes: [LOG    ] {} Object.batchEnd(): [handlers] batchEnd
+2021-09-15T17:08:04Z Eyes: [LOG    ] {} (): [server] error in eyes api: Error: Eyes-Cypress detected diffs or errors during execution of visual tests.  
+       Errors - 2 tests
+         ✖ [Eyes test not started] : Error: Request failed with status code 500(Internal Server Error)
+         ✖ [Eyes test not started] : Error: Request failed with status code 500(Internal Server Error)
+
+
+    at /Users/chris/Desktop/tutorial-cypress-master/node_modules/@applitools/eyes-cypress/src/plugin/waitForBatch.js:26:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[0mPOST /eyes/batchEnd [32m200 [0m4.673 ms - -[0m
+[0mGET /__cypress/runner/fonts/mulish-latin-700-normal.woff2 [32m200 [0m2.628 ms - 31176[0m
+[0mPOST /api/v3/data/ [32m201 [0m6289.793 ms - -[0m
